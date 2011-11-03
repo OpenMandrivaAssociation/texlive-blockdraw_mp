@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /graphics/metapost/contrib/macros/blockdraw_mp
+# catalog-date 2008-08-17 01:00:50 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-blockdraw_mp
 Version:	20080817
 Release:	1
@@ -49,6 +55,7 @@ will be happy to have a library for the job..
 %doc %{_texmfdistdir}/doc/metapost/blockdraw_mp/cascadedemo.pdf
 %doc %{_texmfdistdir}/doc/metapost/blockdraw_mp/tiddetext.sty
 %doc %{_texmfdistdir}/doc/metapost/blockdraw_mp/tighttoc.sty
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ will be happy to have a library for the job..
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
