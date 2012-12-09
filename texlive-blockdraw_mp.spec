@@ -56,3 +56,18 @@ will be happy to have a library for the job..
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20080817-2
++ Revision: 749788
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20080817-1
++ Revision: 717955
+- texlive-blockdraw_mp
+- texlive-blockdraw_mp
+- texlive-blockdraw_mp
+- texlive-blockdraw_mp
+- texlive-blockdraw_mp
+
