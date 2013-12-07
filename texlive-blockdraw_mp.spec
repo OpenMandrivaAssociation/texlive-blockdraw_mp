@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-blockdraw_mp
 Version:	20080817
-Release:	3
+Release:	4
 Summary:	Block diagrams and bond graphs, with MetaPost
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/blockdraw_mp
