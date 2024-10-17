@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Block diagrams and bond graphs, with MetaPost
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/blockdraw_mp
+URL:		https://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/blockdraw_mp
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/blockdraw_mp.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/blockdraw_mp.doc.r%{version}.tar.xz
